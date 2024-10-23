@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
+  <body>
+    <header></header>
+    <nav>
+      <ul>
+        <li>Home</li>
+        <li>News</li>
+        <section class="news-section">
+          <div class="page">
+            <h1>LATEST NEWS</h1>
+            <div class="archive">
+              <article class="article">
+                <h3>
+                <img id="header-img" alt="main article" />
+                <h2>
+                  <a id="header-article"></a>
+                </h2>
+                <p id="header-desc">No Article Description.</p>
+              </article>
+              <article class="article">
+                <img
+                  id="article-img-1"
+                  src="https://images.pexels.com/photos/416160/pexels-photo-416160.jpeg?auto=compress&cs=tinysrgb&w=200&h=200&dpr=2"
+                  alt="black and white cat"
+                />
+                <h3>
+                  <a id="article-link-1">No Article Title</a>
+                </h3>
+                <p id="article-desc-1">No Article Description.</p>
+              </article>
+            </div>
+            <div class="archive">
+              <article class="article">
+                <h3>
+                <h2>
+                  <a id="header-article"></a>
+                </h2>
+              </article>
+              <article class="article">
+                <img
+                  id="article-img-1"
+                  src="https://images.pexels.com/photos/416160/pexels-photo-416160.jpeg?auto=compress&cs=tinysrgb&w=200&h=200&dpr=2"
+                  alt="black and white cat"
+                />
+                <h3>
+                  <a id="article-link-1">No Article Title</a>
+                </h3>
+                <p id="article-desc-1">No Article Description.</p>
+                <img
+                  id="article-img-1"
+                  src="https://images.pexels.com/photos/416160/pexels-photo-416160.jpeg?auto=compress&cs=tinysrgb&w=200&h=200&dpr=2"
+                  alt="black and white cat"
+                />
+              </article>
+            </div>
+            <h3>
+              <a id="article-link-1">No Article Title</a>
+            </h3>
+            <p id="article-desc-1">No Article Description.</p>
+          </article>
+        </div>
+        <div class="archive">
+          <article class="article">
+            <h3>
+            <h2>
+              <a id="header-article"></a>
+            </h2>
+          </article>
+          <article class="article">
+            <img
+              id="article-img-1"
+              src="https://images.pexels.com/photos/416160/pexels-photo-416160.jpeg?auto=compress&cs=tinysrgb&w=200&h=200&dpr=2"
+              alt="black and white cat"
+            />
+            <h3>
+              <a id="article-link-1">No Article Title</a>
+            </h3>
+            <p id="article-desc-1">No Article Description.</p>
+          </article>
+        </div>
+        </section>
+        <li>Weather</li>
+        <li style="float: right"><About</li>
+      </ul>
+    </nav>
+    <main></main>
+    <footer></footer>
+  </body>
+  <section class="weather-section">
+    <div class="page">
+      <h1>LATEST WEATHER</h1>
+      <div class="archive">
+        <article class="article">
+          <section id="stats">
+            <div class="summary">
+              <h2>Weather summary</h2>
+              <h3 id="five-city"></h3>
+              <p>
+                Currently: Slight Chance of Rain <span id="current-desc"></span>
+              </p>
+              <p>Tempature: 61<span id="current-temp"></span>°F</p>
+              <p>Wind Chill: 62<span id="current-windChill"></span>°F</p>
+              <p>Humidity: 31<span id="current-humid"></span>%</p>
+              <p>Wind Speed: 2 <span id="current-windSpeed"></span> mph</p>
+            </div>
+          </section>
+          <div>
+            <img src="https://picsum.photos/400" alt="Random Image" />
+          </div>
+        </article>
+
+        <!-- 5 day forecast -->
+        <div class="article-five-day">
+          <article id="forecastContainer">
+            <h2 id="forecastTitle">5 Day Forecast</h2>
+            <h3 id="city"></h3>
+            <div class="flex">
+              <div class="flex-col">
+                <span id="dayTitle1" class="col-head"></span>
+                <img id="weatherIcon1" class="weatherIcon" />
+                <span class="temp-data">
+                  <span id="data1"></span>
+                  <span>Day 1</span>
+                  <span> 65 °F</span>
+                  <img
+                    src="https://raw.githubusercontent.com/AndrewP-Instructor/HTMLProject1/refs/heads/main/images/Sunny.jpg"
+                    alt="Sunny.jpg"
+                    width="150"
+                    height="150"
+                  />
+                </span>
+              </div>
+              <div class="flex-col">
+                <span id="dayTitle2" class="col-head"></span>
+                <img id="weatherIcon2" class="weatherIcon" />
+                <div class="temp-data">
+                  <span id="data2"></span>
+                  <span>Day 2</span>
+                  <span> 63 °F</span>
+                  <img
+                    src="https://raw.githubusercontent.com/AndrewP-Instructor/HTMLProject1/refs/heads/main/images/Umbrella.jpg"
+                    alt="An Umbrella"
+                    width="150"
+                    height="150"
+                  />
+                </div>
+              </div>
+              <div class="flex-col">
+                <span id="dayTitle3" class="col-head"></span>
+                <img id="weatherIcon3" class="weatherIcon" />
+                <div class="temp-data">
+                  <span id="data3"></span>
+                  <span>Day 3</span>
+                  <span>57 °F</span>
+                  <img
+                    src="https://raw.githubusercontent.com/AndrewP-Instructor/HTMLProject1/refs/heads/main/images/Windy.jpg"
+                    alt="Windy"
+                    width="150"
+                    height="150"
+                  />
+                </div>
+              </div>
+              <div class="flex-col">
+                <span id="dayTitle4" class="col-head"></span>
+                <img id="weatherIcon4" class="weatherIcon" />
+                <div class="temp-data">
+                  <span id="data4"></span>
+                  <span>Day 4</span>
+                  <span>59°F</span>
+                  <img
+                  src="https://raw.githubusercontent.com/AndrewP-Instructor/HTMLProject1/refs/heads/main/images/overcast.jpg"
+                  alt="Blue Clouds" width="150" height="150"
+                </div>
+              </div>
+              <div class="flex-col">
+                <span id="dayTitle5" class="col-head"></span>
+                <img id="weatherIcon5" class="weatherIcon" />
+                <div class="temp-data">
+                  <span id="data5"></span>
+                  <span>Day 5</span>
+                  <span>56°F</span>
+                  <img
+                    src="https://raw.githubusercontent.com/AndrewP-Instructor/HTMLProject1/refs/heads/main/images/snowy.jpg"
+                    alt="Snowy"
+                    width="150"
+                    height="150"
+                  />
+                </div>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer>
+      <p>Copyright © 2024. Elijah Poore. Tooele Technical College.
+        Last updated: 10/23/24
+      </p>
+  </footer>
+  <hr />
+</html>
